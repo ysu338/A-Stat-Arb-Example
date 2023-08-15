@@ -1,5 +1,3 @@
-# A Stat-Arb Example
-
 ![](/cum_ret.png)
 
 ### Tradable Universe:
