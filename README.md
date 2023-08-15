@@ -13,7 +13,7 @@
   $ V = D + F\PhiF^T $ \
   where $V$ is a $N$ X $N$ modeled variance-covariance matrix,\
   $D$ is a diagonal matrix that contains idiosyncratic risks,\
-  $F$ is a $N x K$ factor loading matrix,\
+  $F$ is a $N$ X $K$ factor loading matrix,\
   and $\Phi$ is a $K$ X $K$ factor covariance matrix.
   
 - that is based on principal components extracted using a short lookback of daily returns
