@@ -10,11 +10,13 @@
 
 ### Risk Model:
 - For a total of $N$ stocks, the risks are modeled by a factor model (# of factors = $K$):\
-  $$ V = D + F\PhiF^T $$
-  where $V$ is a $N x N$ modeled variance-covariance matrix,\
+  '''math
+  V = D + F\PhiF^T
+  '''
+  where $V$ is a $N$ X $N$ modeled variance-covariance matrix,\
   $D$ is a diagonal matrix that contains idiosyncratic risks,\
   $F$ is a $N x K$ factor loading matrix,\
-  and $\Phi$ is a $K x K$ factor covariance matrix.
+  and $\Phi$ is a $K$ X $K$ factor covariance matrix.
   
 - that is based on principal components extracted using a short lookback of daily returns
 - 
