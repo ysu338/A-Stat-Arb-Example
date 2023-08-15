@@ -9,15 +9,9 @@
 
 
 ### Risk Model:
-- For a total of $N$ stocks, the risks are modeled by a factor model (# of factors = $K$):\
-  $ V = D + F\PhiF^T $ \
-  where $V$ is a $N$ X $N$ modeled variance-covariance matrix,\
-  $D$ is a diagonal matrix that contains idiosyncratic risks,\
-  $F$ is a $N$ X $K$ factor loading matrix,\
-  and $\Phi$ is a $K$ X $K$ factor covariance matrix.
-  
-- that is based on principal components extracted using a short lookback of daily returns
-- 
+- The risk of the stocks in the tradable universe is modeled by a factor model
+- The model is based on principal components extracted using a short lookback of daily returns
+- It combines information in industry classification at different granularity
 
 ### Portfolio Optimization:
 - Simulated long-short portfolios with weights derived from ***single-period*** optimization in maximizing Sharpe ratio
