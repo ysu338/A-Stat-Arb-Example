@@ -1,6 +1,6 @@
 # A Stat-Arb Example
 
-![](/cum_tss.png)
+![](/cum_ret.png)
 
 ### Tradable Universe:
 - Constituents within Russell 3000 with customized liquidity filters (min. price. etc), resulting in approx.2000 stocks every month
