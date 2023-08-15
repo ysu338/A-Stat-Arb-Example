@@ -9,18 +9,18 @@
 
 
 ### Risk Model:
-- For a total of $N$ stocks, the risks are modeled by a factor model (# of factors = $K$):
-  $ V = D + F\PhiF^T $
-  where $V$ is a $N x N$ modeled variance-covariance matrix,
-  $D$ is a diagonal matrix that contains idiosyncratic risks,
-  $F$ is a $N x K$ factor loading matrix,
+- For a total of $N$ stocks, the risks are modeled by a factor model (# of factors = $K$):\
+  $$ V = D + F\PhiF^T $$
+  where $V$ is a $N x N$ modeled variance-covariance matrix,\
+  $D$ is a diagonal matrix that contains idiosyncratic risks,\
+  $F$ is a $N x K$ factor loading matrix,\
   and $\Phi$ is a $K x K$ factor covariance matrix.
   
 - that is based on principal components extracted using a short lookback of daily returns
 - 
 
 ### Portfolio Optimization:
-- Simulated long-short portfolios with weights derived from ***single-period*** optmizations in maximizing Sharpe ratio
+- Simulated long-short portfolios with weights derived from ***single-period*** optimization in maximizing Sharpe ratio
 - The optimization is constrained quadratic programming with inputs from signal constructions and the risk model
 - The constraints include:
   * Dollar neutrality
