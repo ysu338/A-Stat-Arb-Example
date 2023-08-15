@@ -1,11 +1,12 @@
 # A Stat-Arb Example
 
+![](/cum_tss.png)
+
 ### Tradable Universe:
 - Constituents within Russell 3000 with customized liquidity filters (min. price. etc), resulting in approx.2000 stocks every month
 - The tradable universe is ***point-in-time*** and free of ***survivorship bias***
 
 ### Signal Constructions:
-
 
 
 ### Risk Model:
