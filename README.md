@@ -1,8 +1,8 @@
 # A Stat-Arb Example
 
 ### Tradable Universe:
-- Constituents in Russell 3000 with customized liquidity filters, leading to approx. 2000 stocks every month
-- The tradable universe is ***Point-in-time*** and ***survivorship bias - free***
+- Constituents within Russell 3000 with customized liquidity filters (min. price. etc), resulting in approx.2000 stocks every month
+- The tradable universe is ***point-in-time*** and free of ***survivorship bias***
 
 ### Signal Constructions:
 
