@@ -8,17 +8,17 @@ The figure shows backtested results for a StatArb strategy.
 - The list of eligible stocks is refreshed on a monthly basis.
 - The universe is ***point-in-time*** and free of ***survivorship bias***.
 
-### Signal Construction:
+### The Signal:
 - Constructed multiple signals using historical prices and returns.
 - Used time series and signal processing techniques to generate expected returns for each stock at each point in time.
 - Employed a signal combination approach grounded in the principle of maximum entropy.
 - The strategy leverages daily returns over various time periods.
 
-### Risk Model:
+### The Risk Model:
 - Constructed a factor-based risk model for the tradable universe by extracting principal components from short-term daily returns.
 - This model incorporates industry classifications at various levels of granularity.
 
-### Portfolio Optimization:
+### Portfolio Construction:
 - Simulated long-short portfolios by driving weights weights using ***single-period*** optimizations to maximize Sharpe ratio.
 - It is a constrained optimization leveraging inputs from the constructed signal and the risk model.
 - The constraints include:
