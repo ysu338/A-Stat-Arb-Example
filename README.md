@@ -8,7 +8,7 @@ The figure shows backtested results for a StatArb strategy.
 - The list of eligible stocks is refreshed on a monthly basis.
 - The universe is ***point-in-time*** and free of ***survivorship bias***.
 
-### The Signal:
+### The Signals:
 - Constructed multiple signals using historical prices and returns.
 - Used time series and signal processing techniques to generate expected returns for each stock at each point in time.
 - Employed a signal combination approach grounded in the principle of maximum entropy.
