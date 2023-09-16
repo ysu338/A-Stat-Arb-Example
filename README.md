@@ -1,8 +1,10 @@
 ![](/Cum_Ret.png)
 
-### Tradable Universe:
-- Constituents within Russell 3000 with customized liquidity filters (min. price. etc), resulting in approx.2000 stocks every month
-- The tradable universe is ***point-in-time*** and free of ***survivorship bias***
+### The Universe:
+- Constituents within Russell 3000 with customized liquidity filters (minimum price, minimum ADV, etc.),
+  leading to approx.2000 eligible stocks for every month.
+- The eligible stocks are updated monthly.
+- The universe is ***point-in-time*** and free of ***survivorship bias***
 
 ### Signal Constructions:
 
