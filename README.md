@@ -19,7 +19,8 @@ The figure shows backtested results for a StatArb strategy.
 - This model incorporates industry classifications at various levels of granularity.
 
 ### Portfolio Construction:
-- Simulated long-short portfolios by driving weights weights using ***single-period*** optimizations to maximize Sharpe ratio.
+- Simulated long-short portfolios by driving weights using ***single-period*** optimizations to maximize Sharpe ratio.
+- The number of stocks on either the long or short side is on average 1000.
 - It is a constrained optimization leveraging inputs from the constructed signal and the risk model.
 - The constraints include:
   * Dollar neutrality
