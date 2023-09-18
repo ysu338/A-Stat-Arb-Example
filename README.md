@@ -30,5 +30,5 @@ The figure shows backtested results for a StatArb strategy.
   * Position weights range ( -1.5% to +1.5%)
   * Liquidity constraints (turnover, maximum average daily dollar volume, etc.) are not included
 - Note:
-  * The illustration above does not consider t-cost (not in obj. func nor constraints)
+  * The illustration above does not include considerations on t-cost (not in obj. func nor constraints)
   * Real-world returns may vary depending on the execution quality
