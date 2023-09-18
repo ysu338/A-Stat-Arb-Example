@@ -1,6 +1,6 @@
 ![](/Cum_Ret.png)
 
-The figure shows backtested results for a StatArb strategy.
+The figure shows backtested results for a StatArb strategy. The return analytics are for 2-to-1 leverage (1 long and 1 short) portfolios.
 
 ### The Universe:
 - The universe consists of constituents within the Russell 3000, carefully selected through customized liquidity filters,
