@@ -1,6 +1,6 @@
 ![](/Cum_Ret.png)
 
-The figure shows backtested results for a StatArb strategy. The return analytics are for 2-to-1 leverage (1 long and 1 short) portfolios.
+The figure shows backtested results for a StatArb strategy. The return analytics are for 2-to-1 leverage (long 1 and short 1) portfolios.
 
 ### The Universe:
 - The universe consists of constituents within the Russell 3000, carefully selected through customized liquidity filters,
@@ -24,6 +24,7 @@ The figure shows backtested results for a StatArb strategy. The return analytics
 - It is a constrained optimization leveraging inputs from the constructed signal and the risk model.
 - The constraints include:
   * Dollar neutrality
+  * GMV equals to 2 (long 1 and short 1)
   * Long/short legs matching on sector weights 
   * Long/short legs matching on weights based on size buckets
   * Factor loading (derived from the risk model) matching
