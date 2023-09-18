@@ -20,7 +20,7 @@ The figure shows backtested results for a StatArb strategy.
 
 ### Portfolio Construction:
 - Simulated long-short portfolios by driving weights using ***single-period*** optimizations to maximize Sharpe ratio.
-- The number of stocks on either the long or short side is on average 1000.
+- The number of stocks held in the backtest portfolios on either the long or short side is approx. 1000.
 - It is a constrained optimization leveraging inputs from the constructed signal and the risk model.
 - The constraints include:
   * Dollar neutrality
